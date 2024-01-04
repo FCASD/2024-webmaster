@@ -1,3 +1,5 @@
+document.addEventListener("touchstart", function() {}, true);
+
 let x = 1; 
 
 function change_back() {
