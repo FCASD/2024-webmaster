@@ -301,9 +301,10 @@ nav .right button {
 }
 
 .main-title {
-
+  background-image: url("assets/images/solar-house-3.png");
 	background-repeat: no-repeat;
 	background-size: cover; 
+  color: white;
 	background-position: 5%;
 	transition: background-image 2s, transform 2s;
 	animation: fade 1s linear; /* Fade CSS */
@@ -312,45 +313,68 @@ nav .right button {
 	-ms-backface-visibility:     hidden;
 }
 .main-shuttle-2 {
-	
+	background-image: url("assets/images/solar-house.jpg");
 	background-repeat: no-repeat;
 	background-size: cover; 
 	background-position: 5%;
 	text-align: right; 
-	color: #242424; 
+	color: white;
+  position: relative;
 }
+
+.main-shuttle-2 i {
+  right: 0;
+  font-size:40px;
+}
+
+.main-shuttle-2 p{
+  margin:auto;
+  padding-right: 2%;
+  padding-left: 0.01%;
+  background-color: #00008B;
+}
+
+
 .main-shuttle-3 {
+  background-image: url("assets/images/solar-house-2.png");
 	background-repeat: no-repeat;
 	background-size: cover; 
+  color: white;
 	background-position: 5%;
 }
+
+.main-shuttle-3 p{
+  padding-right: 1%;
+  padding-left: 1%;
+  background-color: #00008B;
+}
 .main-shuttle-4 {
-	background-image: url("assets/shuttle_imgs/starship-4.jpeg");
+
 	background-repeat: no-repeat;
 	background-size: cover; 
 	background-position: 5%;
 }
 .main-takeoff {
-	background-image: url("assets/processes_imgs/takeoff.jpeg");
+	
 	background-repeat: no-repeat;
 	background-size: cover; 
 	background-position: 5%;
 }
 .main-orbit {
-	background-image: url("assets/processes_imgs/orbit.jpeg");
+	
 	background-repeat: no-repeat;
 	background-size: cover; 
 	background-position: 5%;
 	text-align: right; 
 }
 .main-landing {
-	background-image: url("assets/processes_imgs/landing.jpeg");
+	
 	background-repeat: no-repeat;
 	background-size: cover; 
 	background-position: 5%;
 }
 .main-training {
-	background-image: url("assets/spacewalk.jpeg");
+	
 	background-repeat: no-repeat;
 	background-size: cover; 
 	background-position: 5%;
@@ -361,6 +385,7 @@ nav .right button {
 	background-size: cover; 
 	background-position: 5%;
 }
+
 .big-text .description-text .button {
 	padding: 18px; 
 }
@@ -407,6 +432,7 @@ nav .right button {
 	background: linear-gradient(to left, transparent 50%, var(--text-tertiary) 50%) right;
 	background-size: 200%;
   transition: .45s ease-out;
+ 
 }
 .button-2{
 	border: 2px solid var(--text-tertiary);
