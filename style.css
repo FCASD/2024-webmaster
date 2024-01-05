@@ -312,8 +312,10 @@ nav .right button {
 	-moz-backface-visibility:    hidden;
 	-ms-backface-visibility:     hidden;
 }
+
+
 .main-shuttle-2 {
-	background-image: url("assets/images/solar-house.jpg");
+  background-image: url("assets/images/solar-house.jpg");
 	background-repeat: no-repeat;
 	background-size: cover; 
 	background-position: 5%;
@@ -343,11 +345,66 @@ nav .right button {
 	background-position: 5%;
 }
 
+
 .main-shuttle-3 p{
   padding-right: 1%;
   padding-left: 1%;
   background-color: #00008B;
 }
+
+.main-title-wind {
+  background-image: url("assets/images/wind-house.png");
+  background-repeat: no-repeat;
+  background-size: cover; 
+  color: white;
+  background-position: 5%;
+  transition: background-image 2s, transform 2s;
+  animation: fade 1s linear; /* Fade CSS */
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility:    hidden;
+  -ms-backface-visibility:     hidden;
+}
+
+
+.main-shuttle-wind-2 {
+  background-image: url("assets/images/wind-house-2.png");
+  background-repeat: no-repeat;
+  background-size: cover; 
+  background-position: 5%;
+  text-align: right; 
+  color: white;
+  position: relative;
+}
+
+.main-shuttle-wind-2 i {
+  right: 0;
+  font-size:40px;
+}
+
+.main-shuttle-wind-2 p{
+  margin:auto;
+  padding-right: 2%;
+  padding-left: 0.01%;
+  background-color: #00008B;
+}
+
+
+.main-shuttle-wind-3 {
+  background-image: url("assets/images/wind-house-3.png");
+  background-repeat: no-repeat;
+  background-size: cover; 
+  color: white;
+  background-position: 5%;
+}
+
+
+.main-shuttle-wind-3 p{
+  padding-right: 1%;
+  padding-left: 1%;
+  background-color: #00008B;
+}
+
+
 .main-shuttle-4 {
 
 	background-repeat: no-repeat;
